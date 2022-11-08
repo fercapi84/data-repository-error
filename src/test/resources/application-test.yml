@@ -1,0 +1,16 @@
+datasources:
+  default:
+    url: jdbc:tc:postgresql://localhost/mfttest
+    driverClassName: org.testcontainers.jdbc.ContainerDatabaseDriver
+    username: mfttest
+    password: mfttest
+
+jpa:
+  default:
+    properties:
+      hibernate:
+        hbm2ddl:
+          auto: update
+        show_sql: true
+
+

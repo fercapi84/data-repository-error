@@ -1,0 +1,9 @@
+micronaut:
+  application:
+    name: dataRepositoryError
+# Config db with TestContainers
+netty:
+  default:
+    allocator:
+      max-order: 3
+
